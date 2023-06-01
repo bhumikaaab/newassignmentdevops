@@ -1,5 +1,5 @@
 FROM adoptopenjdk/openjdk11:alpine-jre
-ENV PORT 8080
+ENV PORT 8081
 EXPOSE 8080
 ADD target/*.jar app.jar
 ENTRYPOINT ["java","-jar","app.jar"]

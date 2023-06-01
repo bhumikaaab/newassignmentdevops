@@ -8,6 +8,7 @@ public class AssingmentNewDevOpsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AssingmentNewDevOpsApplication.class, args);
+		System.out.println("Hello World");
 	}
 
 }
